@@ -1,0 +1,17 @@
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\bin\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.exe
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\bin\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.deps.json
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\bin\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.runtimeconfig.json
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\bin\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.dll
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\bin\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.pdb
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.vbproj.AssemblyReference.cache
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.Form1.resources
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.vbproj.GenerateResource.cache
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.AssemblyInfoInputs.cache
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.AssemblyInfo.vb
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.vbproj.CoreCompileInputs.cache
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.dll
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\refint\VisualBasicWinFormsCoreApp.dll
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.pdb
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\VisualBasicWinFormsCoreApp.genruntimeconfig.cache
+C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp\obj\Debug\net6.0-windows\ref\VisualBasicWinFormsCoreApp.dll
