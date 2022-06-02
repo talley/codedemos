@@ -35,7 +35,11 @@ Partial Class Form1
         Me.txtcreatedby = New System.Windows.Forms.TextBox()
         Me.btnadd = New System.Windows.Forms.Button()
         Me.btnclear = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnpdf = New System.Windows.Forms.Button()
+        Me.btndelete = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -52,7 +56,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(1098, 75)
+        Me.Label1.Location = New System.Drawing.Point(1081, 75)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(46, 20)
         Me.Label1.TabIndex = 1
@@ -61,7 +65,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(1098, 135)
+        Me.Label2.Location = New System.Drawing.Point(1081, 135)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(70, 20)
         Me.Label2.TabIndex = 2
@@ -70,7 +74,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(1098, 12)
+        Me.Label3.Location = New System.Drawing.Point(1081, 12)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(22, 20)
         Me.Label3.TabIndex = 3
@@ -79,7 +83,7 @@ Partial Class Form1
         'lblcreatedat
         '
         Me.lblcreatedat.AutoSize = True
-        Me.lblcreatedat.Location = New System.Drawing.Point(1098, 195)
+        Me.lblcreatedat.Location = New System.Drawing.Point(1081, 195)
         Me.lblcreatedat.Name = "lblcreatedat"
         Me.lblcreatedat.Size = New System.Drawing.Size(80, 20)
         Me.lblcreatedat.TabIndex = 4
@@ -88,7 +92,7 @@ Partial Class Form1
         'lblcreatedby
         '
         Me.lblcreatedby.AutoSize = True
-        Me.lblcreatedby.Location = New System.Drawing.Point(1098, 248)
+        Me.lblcreatedby.Location = New System.Drawing.Point(1081, 248)
         Me.lblcreatedby.Name = "lblcreatedby"
         Me.lblcreatedby.Size = New System.Drawing.Size(81, 20)
         Me.lblcreatedby.TabIndex = 5
@@ -136,25 +140,56 @@ Partial Class Form1
         '
         Me.btnadd.Location = New System.Drawing.Point(1175, 284)
         Me.btnadd.Name = "btnadd"
-        Me.btnadd.Size = New System.Drawing.Size(155, 29)
+        Me.btnadd.Size = New System.Drawing.Size(96, 29)
         Me.btnadd.TabIndex = 11
         Me.btnadd.Text = "Add User"
         Me.btnadd.UseVisualStyleBackColor = True
         '
         'btnclear
         '
-        Me.btnclear.Location = New System.Drawing.Point(1369, 284)
+        Me.btnclear.Location = New System.Drawing.Point(1277, 284)
         Me.btnclear.Name = "btnclear"
-        Me.btnclear.Size = New System.Drawing.Size(155, 29)
+        Me.btnclear.Size = New System.Drawing.Size(90, 29)
         Me.btnclear.TabIndex = 12
         Me.btnclear.Text = "Clear Form"
         Me.btnclear.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.btnpdf)
+        Me.GroupBox1.Location = New System.Drawing.Point(1081, 345)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(454, 111)
+        Me.GroupBox1.TabIndex = 13
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Options"
+        '
+        'btnpdf
+        '
+        Me.btnpdf.Location = New System.Drawing.Point(23, 40)
+        Me.btnpdf.Name = "btnpdf"
+        Me.btnpdf.Size = New System.Drawing.Size(167, 29)
+        Me.btnpdf.TabIndex = 0
+        Me.btnpdf.Text = "Export To PDF"
+        Me.btnpdf.UseVisualStyleBackColor = True
+        '
+        'btndelete
+        '
+        Me.btndelete.Enabled = False
+        Me.btndelete.Location = New System.Drawing.Point(1373, 284)
+        Me.btndelete.Name = "btndelete"
+        Me.btndelete.Size = New System.Drawing.Size(90, 29)
+        Me.btndelete.TabIndex = 13
+        Me.btndelete.Text = "Delete User"
+        Me.btndelete.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1536, 663)
+        Me.Controls.Add(Me.btndelete)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnclear)
         Me.Controls.Add(Me.btnadd)
         Me.Controls.Add(Me.txtcreatedby)
@@ -171,6 +206,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -189,4 +225,7 @@ Partial Class Form1
     Friend WithEvents txtcreatedby As TextBox
     Friend WithEvents btnadd As Button
     Friend WithEvents btnclear As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents btnpdf As Button
+    Friend WithEvents btndelete As Button
 End Class

@@ -2,6 +2,39 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "BouncyCastle/1.8.9": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "iTextSharp/5.5.13.3": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.9"
+        },
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
+      "Krypton.Toolkit/65.22.6.152": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Krypton.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Krypton.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -644,6 +677,63 @@
     }
   },
   "libraries": {
+    "BouncyCastle/1.8.9": {
+      "sha512": "axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
+      "type": "package",
+      "path": "bouncycastle/1.8.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.9.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "iTextSharp/5.5.13.3": {
+      "sha512": "vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
+      "type": "package",
+      "path": "itextsharp/5.5.13.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.5.5.13.3.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
+      ]
+    },
+    "Krypton.Toolkit/65.22.6.152": {
+      "sha512": "thgVK7gcT4iIflF9NiMbuinfC1XodKfgJ07pLEU4aPPtUaP1c30Fr46P+jTAu50oh9LDw9ZSKSbugYfFYUkjAg==",
+      "type": "package",
+      "path": "krypton.toolkit/65.22.6.152",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Krypton Stable.png",
+        "krypton.toolkit.65.22.6.152.nupkg.sha512",
+        "krypton.toolkit.nuspec",
+        "lib/net462/Krypton.Toolkit.dll",
+        "lib/net462/Krypton.Toolkit.xml",
+        "lib/net47/Krypton.Toolkit.dll",
+        "lib/net47/Krypton.Toolkit.xml",
+        "lib/net471/Krypton.Toolkit.dll",
+        "lib/net471/Krypton.Toolkit.xml",
+        "lib/net472/Krypton.Toolkit.dll",
+        "lib/net472/Krypton.Toolkit.xml",
+        "lib/net48/Krypton.Toolkit.dll",
+        "lib/net48/Krypton.Toolkit.xml",
+        "lib/net5.0-windows7.0/Krypton.Toolkit.dll",
+        "lib/net5.0-windows7.0/Krypton.Toolkit.xml",
+        "lib/net6.0-windows7.0/Krypton.Toolkit.dll",
+        "lib/net6.0-windows7.0/Krypton.Toolkit.xml",
+        "lib/netcoreapp3.1/Krypton.Toolkit.dll",
+        "lib/netcoreapp3.1/Krypton.Toolkit.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -1862,54 +1952,53 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Krypton.Toolkit >= 65.22.6.152",
       "Microsoft.Data.Sqlite.Core >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
       "SQLitePCLRaw.core >= 2.1.0",
-      "VisualBasicWinFormsCoreApp.Data >= 1.0.0"
+      "VisualBasicWinFormsCoreApp.Data >= 1.0.0",
+      "iTextSharp >= 5.5.13.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ourota\\.nuget\\packages\\": {},
+    "C:\\Users\\Talley\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.vbproj",
+      "projectUniqueName": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.vbproj",
       "projectName": "VisualBasicWinFormsCoreApp",
-      "projectPath": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.vbproj",
-      "packagesPath": "C:\\Users\\ourota\\.nuget\\packages\\",
-      "outputPath": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\obj\\",
+      "projectPath": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.vbproj",
+      "packagesPath": "C:\\Users\\Talley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ourota\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Talley\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
-        "https://nuget.devexpress.com/152bJRDymf4rtharN7jaPeklTQ42SGcYqc6jboCkqhh5K2sjX7/api": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj": {
-              "projectPath": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj"
+            "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj": {
+              "projectPath": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj"
             }
           }
         }
@@ -1924,6 +2013,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "Krypton.Toolkit": {
+            "target": "Package",
+            "version": "[65.22.6.152, )"
+          },
           "Microsoft.Data.Sqlite.Core": {
             "target": "Package",
             "version": "[6.0.5, )"
@@ -1935,6 +2028,10 @@
           "SQLitePCLRaw.core": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "iTextSharp": {
+            "target": "Package",
+            "version": "[5.5.13.3, )"
           }
         },
         "imports": [
@@ -1958,5 +2055,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

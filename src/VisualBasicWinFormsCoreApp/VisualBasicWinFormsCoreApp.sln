@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VisualBasicWinFormsCoreApp", "VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.vbproj", "{1556CB7A-1B70-472B-B193-3F54A9EFE76B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualBasicWinFormsCoreApp.Data", "VisualBasicWinFormsCoreApp.Data\VisualBasicWinFormsCoreApp.Data.csproj", "{67707A9E-C196-498E-B063-85C1FAE9B9EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualBasicWinFormsCoreApp.Data", "VisualBasicWinFormsCoreApp.Data\VisualBasicWinFormsCoreApp.Data.csproj", "{67707A9E-C196-498E-B063-85C1FAE9B9EC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VisualBasicWinFormsCoreApp.Tests", "VisualBasicWinFormsCoreApp.Tests\VisualBasicWinFormsCoreApp.Tests.vbproj", "{D3764DBC-EBC8-4901-BB5C-6902ACA91CD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{67707A9E-C196-498E-B063-85C1FAE9B9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67707A9E-C196-498E-B063-85C1FAE9B9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67707A9E-C196-498E-B063-85C1FAE9B9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3764DBC-EBC8-4901-BB5C-6902ACA91CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3764DBC-EBC8-4901-BB5C-6902ACA91CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3764DBC-EBC8-4901-BB5C-6902ACA91CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3764DBC-EBC8-4901-BB5C-6902ACA91CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

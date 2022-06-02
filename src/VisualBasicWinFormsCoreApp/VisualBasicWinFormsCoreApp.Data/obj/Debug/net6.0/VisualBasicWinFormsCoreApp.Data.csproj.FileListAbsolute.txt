@@ -10,3 +10,15 @@ C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCore
 C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\refint\VisualBasicWinFormsCoreApp.Data.dll
 C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.pdb
 C:\Codes\github\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\ref\VisualBasicWinFormsCoreApp.Data.dll
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\bin\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.deps.json
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\bin\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.dll
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\bin\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.pdb
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.csproj.AssemblyReference.cache
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.AssemblyInfo.cs
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.dll
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\refint\VisualBasicWinFormsCoreApp.Data.dll
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\VisualBasicWinFormsCoreApp.Data.pdb
+C:\Users\Talley\Documents\MEGA\Codes\codedemos\src\VisualBasicWinFormsCoreApp\VisualBasicWinFormsCoreApp.Data\obj\Debug\net6.0\ref\VisualBasicWinFormsCoreApp.Data.dll

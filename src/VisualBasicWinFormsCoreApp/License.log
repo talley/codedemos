@@ -1,0 +1,67 @@
+    ======  ======
+    Time:6/2/2022 3:29:46 AM
+    Title: Initiate log
+    Message: 
+    Time:6/2/2022 3:29:46 AM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:6/2/2022 3:29:46 AM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:6/2/2022 3:29:46 AM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:6/2/2022 3:29:46 AM
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:6/2/2022 3:29:46 AM
+    Title: Requesting Validation
+    Message: ILMValidate True NotTrial
+    Entering constructor for: Telerik.CommonPackage.VSPackage
+    Entering Initialize() of: Telerik.CommonPackage.VSPackage
+    Entering constructor for: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    Entering Initialize() of: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    Entering constructor for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.Web.UI.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Web.UI.VSPackage.VSPackage
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.WinControls.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.VSPackage.VSPackage
+    Entering constructor for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering constructor for VisualStudio.SpellChecker.VSSpellCheckEverywherePackage
+    Entering Initialize() of VisualStudio.SpellChecker.VSSpellCheckEverywherePackage
+    TestWindow package loaded
+    Informational: Log level is set to Informational (Default).
+    Informational: Log level is set to Informational (Default).
+    Informational: Connected to test environment '< Local Windows Environment >'
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    given range is not current
+    given range is not current
+    given range is not current
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))

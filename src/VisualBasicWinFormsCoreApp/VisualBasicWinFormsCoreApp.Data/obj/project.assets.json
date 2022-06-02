@@ -1766,40 +1766,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ourota\\.nuget\\packages\\": {},
+    "C:\\Users\\Talley\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj",
       "projectName": "VisualBasicWinFormsCoreApp.Data",
-      "projectPath": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj",
-      "packagesPath": "C:\\Users\\ourota\\.nuget\\packages\\",
-      "outputPath": "C:\\Codes\\github\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\obj\\",
+      "projectPath": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\VisualBasicWinFormsCoreApp.Data.csproj",
+      "packagesPath": "C:\\Users\\Talley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Talley\\Documents\\MEGA\\Codes\\codedemos\\src\\VisualBasicWinFormsCoreApp\\VisualBasicWinFormsCoreApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ourota\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Talley\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
-        "https://nuget.devexpress.com/152bJRDymf4rtharN7jaPeklTQ42SGcYqc6jboCkqhh5K2sjX7/api": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
